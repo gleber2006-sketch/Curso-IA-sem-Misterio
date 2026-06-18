@@ -3,17 +3,17 @@ import { Brain, Menu, X } from "lucide-react"
 import { Button } from "../components/ui/button"
 
 const modules = [
-  { id: 1, title: "Módulo 1 — Boas-Vindas", section: "module1" },
-  { id: 2, title: "Módulo 2 — O Que É IA de Verdade", section: "module2" },
-  { id: 3, title: "Módulo 3 — Por Que Agora?", section: "module3" },
+  { id: 1, title: "Módulo 1 - Boas-Vindas", section: "module1" },
+  { id: 2, title: "Módulo 2 - O Que É IA de Verdade", section: "module2" },
+  { id: 3, title: "Módulo 3 - Por Que Agora?", section: "module3" },
   { id: 4, title: "Mitos Comuns Sobre IA", section: "myths" },
-  { id: 5, title: "Módulo 4 — As Ferramentas", section: "module4" },
-  { id: 6, title: "Módulo 5 — Como Conversar com a IA", section: "module5" },
-  { id: 7, title: "Módulo 6 — IA Aplicada à Sua Área", section: "module6" },
-  { id: 8, title: "Módulo 7 — Automatizando", section: "module7" },
+  { id: 5, title: "Módulo 4 - As Ferramentas", section: "module4" },
+  { id: 6, title: "Módulo 5 - Como Conversar com a IA", section: "module5" },
+  { id: 7, title: "Módulo 6 - IA Aplicada à Sua Área", section: "module6" },
+  { id: 8, title: "Módulo 7 - Automatizando", section: "module7" },
   { id: 9, title: "Como Apresentar no Trabalho", section: "apresentar" },
-  { id: 10, title: "Módulo 8 — Cuidados e Ética", section: "module8" },
-  { id: 11, title: "Módulo 9 — Plano de 7 Dias", section: "module9" },
+  { id: 10, title: "Módulo 8 - Cuidados e Ética", section: "module8" },
+  { id: 11, title: "Módulo 9 - Plano de 7 Dias", section: "module9" },
   { id: 12, title: "Bônus", section: "bonus-header" },
   { id: 13, title: "Resumo Rápido", section: "resumo" },
   { id: 14, title: "Considerações Finais", section: "final" },
@@ -146,7 +146,7 @@ export default function Home() {
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">IA Sem Mistério</h2>
             <p className="text-xl text-gray-300 mb-8">
-              O guia simples para qualquer profissional dominar a inteligência artificial — mesmo sem entender nada de tecnologia
+              O guia simples para qualquer profissional dominar a inteligência artificial, mesmo sem entender nada de tecnologia
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white" onClick={() => scrollTo("module1")}>
@@ -187,17 +187,17 @@ export default function Home() {
 
       <section id="module1" className="py-16 border-t border-blue-500/20">
         <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl font-bold text-white mb-6">Módulo 1 — Boas-Vindas</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">Módulo 1 - Boas-Vindas</h2>
           <div className="prose prose-invert max-w-none">
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
               Imagine a seguinte cena: você está em uma reunião de trabalho e alguém comenta, com total naturalidade, "ah, isso eu resolvi com IA em cinco minutos". Todo mundo assente com a cabeça, como se fosse a coisa mais óbvia do mundo. Você sorri, concorda, e por dentro pensa: "eu nem sei por onde começar com isso".
             </p>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Se essa cena já aconteceu com você — ou algo parecido — , este material foi escrito exatamente para esse momento. Não para te transformar em especialista em tecnologia, e sim para tirar essa sensação de estar "por fora" e te colocar, em poucos dias, em um nível de uso prático e seguro da inteligência artificial.
+              Se essa cena já aconteceu com você ou algo parecido, este material foi escrito exatamente para esse momento. Não para te transformar em especialista em tecnologia, e sim para tirar essa sensação de estar "por fora" e te colocar, em poucos dias, em um nível de uso prático e seguro da inteligência artificial.
             </p>
             <h3 className="text-xl font-semibold text-blue-400 mt-8 mb-4">Para quem é esse material</h3>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Este conteúdo foi escrito para qualquer pessoa que trabalha — como funcionário, autônomo, dono de pequeno negócio, profissional liberal ou prestador de serviço — e que sente que a inteligência artificial é "coisa de gente de tecnologia". Não é. Na prática, ela funciona como uma ferramenta de trabalho, parecida com uma calculadora ou um aplicativo de planilha.
+              Este conteúdo foi escrito para qualquer pessoa que trabalha, como funcionário, autônomo, dono de pequeno negócio, profissional liberal ou prestador de serviço, e que sente que a inteligência artificial é "coisa de gente de tecnologia". Não é. Na prática, ela funciona como uma ferramenta de trabalho, parecida com uma calculadora ou um aplicativo de planilha.
             </p>
             <h3 className="text-xl font-semibold text-blue-400 mt-8 mb-4">O que você vai conseguir até o final</h3>
             <ul className="space-y-3 text-gray-300">
@@ -228,7 +228,7 @@ export default function Home() {
 
       <section id="module2" className="py-16 border-t border-blue-500/20">
         <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl font-bold text-white mb-6">Módulo 2 — O Que É IA de Verdade (Sem Jargão)</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">Módulo 2 - O Que É IA de Verdade (Sem Jargão)</h2>
           <img
             src="/images/modulo2_ia.png"
             alt="Ilustração Módulo 2"
@@ -241,7 +241,7 @@ export default function Home() {
             </p>
             <h3 className="text-xl font-semibold text-blue-400 mt-8 mb-4">Uma explicação sem enrolação</h3>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Pense na IA como um sistema treinado lendo uma quantidade gigantesca de texto, imagens e informações — livros, sites, conversas, manuais, artigos — produzidos por seres humanos ao longo de décadas. A partir desse treinamento, ela aprendeu a reconhecer padrões.
+              Pense na IA como um sistema treinado lendo uma quantidade gigantesca de texto, imagens e informações (livros, sites, conversas, manuais, artigos) produzidos por seres humanos ao longo de décadas. A partir desse treinamento, ela aprendeu a reconhecer padrões.
             </p>
             <h3 className="text-xl font-semibold text-blue-400 mt-8 mb-4">Os três tipos de IA que você vai usar</h3>
             <div className="space-y-4">
@@ -255,7 +255,7 @@ export default function Home() {
               </div>
               <div className="bg-slate-700/30 p-4 rounded-lg border border-blue-500/20">
                 <h4 className="text-blue-400 font-semibold mb-2">IA de automação</h4>
-                <p className="text-gray-300">Ferramentas que usam IA "por trás das cortinas", conectando tarefas automaticamente — organizando respostas, classificando e-mails ou preenchendo planilhas.</p>
+                <p className="text-gray-300">Ferramentas que usam IA "por trás das cortinas", conectando tarefas automaticamente: organizando respostas, classificando e-mails ou preenchendo planilhas.</p>
               </div>
             </div>
           </div>
@@ -264,7 +264,7 @@ export default function Home() {
 
       <section id="module3" className="py-16 border-t border-blue-500/20">
         <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl font-bold text-white mb-6">Módulo 3 — Por Que Agora? O Furacão Que Virou Oportunidade</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">Módulo 3 - Por Que Agora? O Furacão Que Virou Oportunidade</h2>
           <div className="prose prose-invert max-w-none">
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
               Você provavelmente notou que essa conversa sobre IA explodiu de forma muito mais intensa do que outras novidades tecnológicas anteriores. Isso não é acaso, e entender o motivo ajuda a tirar o medo do caminho.
@@ -323,7 +323,7 @@ export default function Home() {
 
       <section id="module4" className="py-16 border-t border-blue-500/20">
         <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl font-bold text-white mb-6">Módulo 4 — As Ferramentas Que Realmente Importam</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">Módulo 4 - As Ferramentas Que Realmente Importam</h2>
           <div className="prose prose-invert max-w-none">
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
               Com a proliferação de ferramentas de IA, pode ser esmagador saber por onde começar. O foco aqui é nas ferramentas mais acessíveis e versáteis para o dia a dia do profissional.
@@ -360,7 +360,7 @@ export default function Home() {
 
       <section id="module5" className="py-16 border-t border-blue-500/20">
         <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl font-bold text-white mb-6">Módulo 5 — Como "Conversar" Com a IA</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">Módulo 5 - Como "Conversar" Com a IA</h2>
           <img
             src="/images/modulo5_prompts.png"
             alt="Ilustração Módulo 5"
@@ -377,19 +377,19 @@ export default function Home() {
             </p>
             <div className="space-y-4">
               <div className="bg-blue-500/10 p-4 rounded-lg border border-blue-400/30">
-                <h4 className="text-blue-300 font-semibold mb-2">C — Contexto</h4>
+                <h4 className="text-blue-300 font-semibold mb-2">C - Contexto</h4>
                 <p className="text-gray-300">Explique a situação, o cenário e o seu papel. A IA precisa entender "quem" você é e "onde" você está.</p>
               </div>
               <div className="bg-blue-500/10 p-4 rounded-lg border border-blue-400/30">
-                <h4 className="text-blue-300 font-semibold mb-2">A — Ação</h4>
+                <h4 className="text-blue-300 font-semibold mb-2">A - Ação</h4>
                 <p className="text-gray-300">Diga claramente o que você quer que a IA faça. Use verbos de ação como "escreva", "resuma", "crie".</p>
               </div>
               <div className="bg-blue-500/10 p-4 rounded-lg border border-blue-400/30">
-                <h4 className="text-blue-300 font-semibold mb-2">F — Formato</h4>
+                <h4 className="text-blue-300 font-semibold mb-2">F - Formato</h4>
                 <p className="text-gray-300">Indique como você quer receber a resposta. Uma lista, um texto corrido, um e-mail formal, uma mensagem de WhatsApp.</p>
               </div>
               <div className="bg-blue-500/10 p-4 rounded-lg border border-blue-400/30">
-                <h4 className="text-blue-300 font-semibold mb-2">E — Exemplo</h4>
+                <h4 className="text-blue-300 font-semibold mb-2">E - Exemplo</h4>
                 <p className="text-gray-300">Sempre que puder, dê um exemplo do estilo que você quer, ou de algo parecido que já funcionou antes.</p>
               </div>
             </div>
@@ -399,7 +399,7 @@ export default function Home() {
 
       <section id="module6" className="py-16 border-t border-blue-500/20">
         <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl font-bold text-white mb-6">Módulo 6 — IA Aplicada à Sua Área de Trabalho</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">Módulo 6 - IA Aplicada à Sua Área de Trabalho</h2>
           <div className="prose prose-invert max-w-none">
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
               A IA pode ser aplicada em praticamente todas as profissões. Aqui estão alguns exemplos práticos:
@@ -418,14 +418,14 @@ export default function Home() {
 
       <section id="module7" className="py-16 border-t border-blue-500/20">
         <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl font-bold text-white mb-6">Módulo 7 — Automatizando o Dia a Dia</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">Módulo 7 - Automatizando o Dia a Dia</h2>
           <div className="prose prose-invert max-w-none">
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
               Depois de praticar pedidos individuais, o próximo passo natural é criar pequenas rotinas que economizam tempo de forma repetida, semana após semana.
             </p>
             <h3 className="text-xl font-semibold text-blue-400 mt-8 mb-4">Comece com "modelos" prontos</h3>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Uma das formas mais simples de automatizar sem precisar de nenhuma ferramenta nova é guardar, em um documento ou bloco de notas, os pedidos que funcionaram bem para você — e reutilizá-los toda semana, só trocando os detalhes específicos.
+              Uma das formas mais simples de automatizar sem precisar de nenhuma ferramenta nova é guardar, em um documento ou bloco de notas, os pedidos que funcionaram bem para você e reutilizá-los toda semana, só trocando os detalhes específicos.
             </p>
             <h3 className="text-xl font-semibold text-blue-400 mt-8 mb-4">Ferramentas de automação simples</h3>
             <div className="space-y-4">
@@ -453,11 +453,11 @@ export default function Home() {
             </p>
             <h3 className="text-xl font-semibold text-blue-400 mt-8 mb-4">Comece testando em tarefas pessoais de baixo risco</h3>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Antes de propor qualquer mudança formal, pratique em tarefas que já são suas, de baixo risco — organizar suas próprias anotações, melhorar um rascunho de e-mail antes de enviar, resumir um documento para seu próprio entendimento. Isso te dá experiência real para falar sobre o assunto com confiança, sem depender de aprovação prévia.
+              Antes de propor qualquer mudança formal, pratique em tarefas que já são suas, de baixo risco: organizar suas próprias anotações, melhorar um rascunho de e-mail antes de enviar, resumir um documento para seu próprio entendimento. Isso te dá experiência real para falar sobre o assunto com confiança, sem depender de aprovação prévia.
             </p>
             <h3 className="text-xl font-semibold text-blue-400 mt-8 mb-4">Leve resultados, não apenas a ideia</h3>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Gestores costumam reagir melhor a um resultado concreto do que a uma proposta abstrata. Em vez de chegar dizendo "podemos usar IA no nosso setor?", chegue mostrando: "usei IA para organizar este relatório em metade do tempo, veja o resultado — será que vale a pena aplicarmos isso em outras tarefas da equipe?".
+              Gestores costumam reagir melhor a um resultado concreto do que a uma proposta abstrata. Em vez de chegar dizendo "podemos usar IA no nosso setor?", chegue mostrando: "usei IA para organizar este relatório em metade do tempo, veja o resultado. Será que vale a pena aplicarmos isso em outras tarefas da equipe?".
             </p>
             <h3 className="text-xl font-semibold text-blue-400 mt-8 mb-4">Respeite as políticas da empresa</h3>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
@@ -465,7 +465,7 @@ export default function Home() {
             </p>
             <h3 className="text-xl font-semibold text-blue-400 mt-8 mb-4">Compartilhe o aprendizado com a equipe</h3>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Uma vez que você já tenha resultados práticos, compartilhar o que aprendeu — inclusive os pedidos prontos que funcionaram bem — costuma gerar valor para toda a equipe, e fortalece sua posição como alguém que está à frente, em vez de atrás, dessa mudança.
+              Uma vez que você já tenha resultados práticos, compartilhar o que aprendeu, inclusive os pedidos prontos que funcionaram bem, costuma gerar valor para toda a equipe, e fortalece sua posição como alguém que está à frente, em vez de atrás, dessa mudança.
             </p>
           </div>
         </div>
@@ -473,7 +473,7 @@ export default function Home() {
 
       <section id="module8" className="py-16 border-t border-blue-500/20">
         <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl font-bold text-white mb-6">Módulo 8 — Cuidados, Limites e Ética</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">Módulo 8 - Cuidados, Limites e Ética</h2>
           <img
             src="/images/modulo8_etica.png"
             alt="Ilustração Módulo 8"
@@ -504,7 +504,7 @@ export default function Home() {
 
       <section id="module9" className="py-16 border-t border-blue-500/20">
         <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl font-bold text-white mb-6">Módulo 9 — Seu Plano de Ação de 7 Dias</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">Módulo 9 - Seu Plano de Ação de 7 Dias</h2>
           <div className="prose prose-invert max-w-none">
             <p className="text-gray-300 text-lg leading-relaxed mb-8">
               Para integrar a IA de forma eficaz em sua rotina, a chave é a prática consistente. Este plano oferece um roteiro simples para começar a usar a IA de maneira produtiva.
@@ -555,7 +555,7 @@ export default function Home() {
 
       <section id="bonus1" className="py-16 border-t border-amber-500/20">
         <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl font-bold text-white mb-2">Bônus 1 — Perguntas Frequentes</h2>
+          <h2 className="text-3xl font-bold text-white mb-2">Bônus 1 - Perguntas Frequentes</h2>
           <p className="text-amber-400 text-sm mb-6">Tire as dúvidas mais comuns de quem está começando</p>
           <div className="prose prose-invert max-w-none space-y-4">
             <div className="bg-slate-700/30 p-4 rounded-lg border border-amber-500/20">
@@ -604,7 +604,7 @@ export default function Home() {
             </div>
             <div className="bg-slate-700/30 p-4 rounded-lg border border-amber-500/20">
               <h4 className="text-amber-300 font-semibold mb-2">"Vale a pena usar IA se eu já sou bom no que faço?"</h4>
-              <p className="text-gray-300">Sim. A IA não substitui a sua experiência — ela acelera a parte mecânica do trabalho, deixando mais tempo livre exatamente para aplicar essa experiência onde ela faz mais diferença.</p>
+              <p className="text-gray-300">Sim. A IA não substitui a sua experiência. Ela acelera a parte mecânica do trabalho, deixando mais tempo livre exatamente para aplicar essa experiência onde ela faz mais diferença.</p>
             </div>
           </div>
         </div>
@@ -612,7 +612,7 @@ export default function Home() {
 
       <section id="bonus2" className="py-16 border-t border-amber-500/20">
         <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl font-bold text-white mb-6">Bônus 2 — Erros Comuns de Quem Está Começando</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">Bônus 2 - Erros Comuns de Quem Está Começando</h2>
           <div className="prose prose-invert max-w-none">
             <div className="space-y-4">
               <div className="bg-red-500/10 p-4 rounded-lg border border-red-500/30">
@@ -646,12 +646,12 @@ export default function Home() {
 
       <section id="bonus3" className="py-16 border-t border-amber-500/20">
         <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl font-bold text-white mb-6">Bônus 3 — Glossário Rápido</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">Bônus 3 - Glossário Rápido</h2>
           <p className="text-gray-300 text-lg mb-6">Termos essenciais para você entender e conversar sobre IA com confiança.</p>
           <div className="grid md:grid-cols-2 gap-4">
             {[
               { term: "Inteligência Artificial (IA)", def: "Sistemas treinados para identificar padrões em grandes quantidades de dados e gerar respostas, textos ou imagens a partir disso." },
-              { term: "IA Generativa", def: "Tipo de IA que cria conteúdo novo — texto, imagem, áudio — em vez de apenas analisar dados existentes." },
+              { term: "IA Generativa", def: "Tipo de IA que cria conteúdo novo (texto, imagem, áudio) em vez de apenas analisar dados existentes." },
               { term: "Prompt", def: "O pedido ou instrução que você escreve para a IA." },
               { term: "Alucinação", def: "Quando a IA apresenta uma informação falsa como se fosse verdadeira, sem avisar que está incerta." },
               { term: "Modelo de Linguagem", def: "O \"motor\" por trás dos assistentes de conversa, treinado com grandes quantidades de texto." },
@@ -676,7 +676,7 @@ export default function Home() {
 
       <section id="bonus4" className="py-16 border-t border-amber-500/20">
         <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl font-bold text-white mb-2">Bônus 4 — 39 Pedidos Prontos Para Copiar e Adaptar</h2>
+          <h2 className="text-3xl font-bold text-white mb-2">Bônus 4 - 39 Pedidos Prontos Para Copiar e Adaptar</h2>
           <p className="text-amber-400 text-sm mb-6">Use estes modelos como ponto de partida. Basta substituir as informações entre colchetes pela sua realidade.</p>
           <div className="prose prose-invert max-w-none">
             <div className="space-y-3">
@@ -733,16 +733,16 @@ export default function Home() {
 
       <section id="bonus5" className="py-16 border-t border-amber-500/20">
         <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl font-bold text-white mb-2">Bônus 5 — Transformando Esse Conhecimento em Renda Extra</h2>
-          <p className="text-amber-400 text-sm mb-6">Depois de aplicar a IA na sua rotina, você pode ajudar quem ainda está perdido — e ganhar com isso.</p>
+          <h2 className="text-3xl font-bold text-white mb-2">Bônus 5 - Transformando Esse Conhecimento em Renda Extra</h2>
+          <p className="text-amber-400 text-sm mb-6">Depois de aplicar a IA na sua rotina, você pode ajudar quem ainda está perdido e ganhar com isso.</p>
           <div className="prose prose-invert max-w-none">
             <h3 className="text-xl font-semibold text-blue-400 mt-8 mb-4">Ajudando pequenos negócios locais</h3>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Donos de pequenos comércios, salões, clínicas e prestadores de serviço frequentemente não têm tempo nem confiança para usar IA por conta própria. Você pode oferecer um serviço simples: organizar um conjunto de pedidos prontos personalizados para o negócio da pessoa — respostas padrão para clientes, descrições de produtos, legendas para redes sociais — entregando isso como um pacote único, cobrado uma única vez ou como uma pequena mensalidade de acompanhamento.
+              Donos de pequenos comércios, salões, clínicas e prestadores de serviço frequentemente não têm tempo nem confiança para usar IA por conta própria. Você pode oferecer um serviço simples: organizar um conjunto de pedidos prontos personalizados para o negócio da pessoa: respostas padrão para clientes, descrições de produtos, legendas para redes sociais. Entregando isso como um pacote único, cobrado uma única vez ou como uma pequena mensalidade de acompanhamento.
             </p>
             <h3 className="text-xl font-semibold text-blue-400 mt-8 mb-4">Criando conteúdo educativo</h3>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Se você gosta de ensinar, pode produzir conteúdo curto — vídeos, posts ou até um pequeno grupo de WhatsApp pago — mostrando, na prática, como pessoas da sua área específica podem usar IA no dia a dia. Quem já passou pela confusão de não entender o assunto tende a confiar mais em quem explica de forma simples.
+              Se você gosta de ensinar, pode produzir conteúdo curto, como vídeos, posts ou até um pequeno grupo de WhatsApp pago, mostrando, na prática, como pessoas da sua área específica podem usar IA no dia a dia. Quem já passou pela confusão de não entender o assunto tende a confiar mais em quem explica de forma simples.
             </p>
             <h3 className="text-xl font-semibold text-blue-400 mt-8 mb-4">Oferecendo consultoria pontual</h3>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
@@ -758,11 +758,11 @@ export default function Home() {
 
       <section id="bonus6" className="py-16 border-t border-amber-500/20">
         <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl font-bold text-white mb-2">Bônus 6 — Um Dia na Vida, Com e Sem IA</h2>
+          <h2 className="text-3xl font-bold text-white mb-2">Bônus 6 - Um Dia na Vida, Com e Sem IA</h2>
           <p className="text-amber-400 text-sm mb-6">Veja na prática como a IA transforma uma rotina de trabalho real.</p>
           <div className="prose prose-invert max-w-none">
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Acompanhe um dia comum de uma profissional fictícia, dona de uma pequena clínica de estética — primeiro sem usar IA, depois aplicando tudo o que foi ensinado aqui.
+              Acompanhe um dia comum de uma profissional fictícia, dona de uma pequena clínica de estética: primeiro sem usar IA, depois aplicando tudo o que foi ensinado aqui.
             </p>
             <div className="grid md:grid-cols-2 gap-6 mb-6">
               <div className="bg-red-500/5 p-6 rounded-lg border border-red-500/20">
@@ -786,7 +786,7 @@ export default function Home() {
             </div>
             <div className="bg-slate-700/30 p-6 rounded-lg border border-blue-400/30 text-center">
               <p className="text-gray-300 text-lg">
-                A diferença não está em fazer tarefas completamente novas — está em recuperar, todos os dias, um tempo que antes desaparecia em tarefas repetitivas.
+                A diferença não está em fazer tarefas completamente novas. Está em recuperar, todos os dias, um tempo que antes desaparecia em tarefas repetitivas.
               </p>
             </div>
           </div>
@@ -810,7 +810,7 @@ export default function Home() {
                 "Módulo 3: a explosão da IA aconteceu porque ela ficou fácil de acessar e fácil de usar, ao mesmo tempo.",
                 "Mitos comuns: IA não é só para gente de tecnologia, não exige conhecimento técnico, e tem versões gratuitas.",
                 "Módulo 4: comece com um único assistente de conversa gratuito, e explore outras categorias só depois.",
-                "Módulo 5: use o método C.A.F.É. — Contexto, Ação, Formato, Exemplo — e refine a resposta em vez de desistir.",
+                "Módulo 5: use o método C.A.F.É. (Contexto, Ação, Formato, Exemplo) e refine a resposta em vez de desistir.",
                 "Módulo 6: aplique a IA dentro da sua própria área de atuação, com exemplos prontos para adaptar.",
                 "Módulo 7: transforme pedidos que funcionaram em modelos reutilizáveis e crie rotinas fixas de uso.",
                 "Como apresentar no trabalho: teste em tarefas próprias primeiro, leve resultados concretos, respeite as políticas da empresa.",
@@ -835,7 +835,7 @@ export default function Home() {
               Você chegou ao final deste material com algo que poucas pessoas têm hoje: uma visão clara, sem exageros e sem mistério, do que a inteligência artificial realmente é e de como ela se encaixa no seu trabalho, na sua área, na sua realidade.
             </p>
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              A diferença entre quem domina essa ferramenta e quem fica para trás não está em talento ou em formação técnica. Está, simplesmente, em quem decide praticar um pouco, toda semana, em tarefas reais. Você já tem o mapa completo. Agora é colocar o pé no caminho — começando pelo Dia 1 do seu plano de ação, hoje mesmo, enquanto a motivação ainda está fresca.
+              A diferença entre quem domina essa ferramenta e quem fica para trás não está em talento ou em formação técnica. Está, simplesmente, em quem decide praticar um pouco, toda semana, em tarefas reais. Você já tem o mapa completo. Agora é colocar o pé no caminho, começando pelo Dia 1 do seu plano de ação, hoje mesmo, enquanto a motivação ainda está fresca.
             </p>
             <div className="text-center mt-10">
               <p className="text-xl text-blue-400 font-semibold">Sucesso na sua jornada.</p>
